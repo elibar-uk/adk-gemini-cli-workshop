@@ -1,0 +1,11 @@
+
+rag/adk-python/
+
+# Runtime and local cache artifacts
+**/.adk/
+**/__pycache__/
+*.pyc
+
+# Local environment files
+.env
+.env.*
