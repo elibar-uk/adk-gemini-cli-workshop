@@ -4,6 +4,9 @@ version = "0.2.0"
 description = "Simple Travel Agent Workshop using Google ADK"
 requires-python = ">=3.11"
 dependencies = [
+    "faiss-cpu>=1.13.2",
     "google-adk",
     "mcp",
+    "numpy>=2.4.4",
+    "sentence-transformers>=5.4.1",
 ]
